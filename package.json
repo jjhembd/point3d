@@ -1,6 +1,6 @@
 {
   "name": "point3d",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Cartesian 3D data type, with basic vector math methods",
   "main": "index.js",
   "type": "module",
