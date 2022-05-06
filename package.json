@@ -1,0 +1,37 @@
+{
+  "name": "point3d",
+  "version": "0.0.0",
+  "description": "Cartesian 3D data type, with basic vector math methods",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "build-docs": "jsdoc index.js -d docs",
+    "lint": "eslint index.js",
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jjhembd/point3d.git"
+  },
+  "keywords": [
+    "cartesian",
+    "3d",
+    "vector",
+    "math"
+  ],
+  "author": "Jeshurun Hembd",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jjhembd/point3d/issues"
+  },
+  "homepage": "https://github.com/jjhembd/point3d#readme",
+  "devDependencies": {
+    "eslint": "^8.15.0",
+    "eslint-config-globeletjs": "^0.0.6",
+    "jasmine": "^4.1.0",
+    "jsdoc": "^3.6.10"
+  }
+}
