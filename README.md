@@ -28,7 +28,9 @@ you can simply chain as follows:
 const c = x.scale(a).plus(b);
 ```
 
-See the documentation links at right for more details.
+See the [class documentation][] for more details.
+
+[class documentation]: https://jjhembd.github.io/point3d/Point3d.html
 
 ## About point3d development
 point3d was written in a single 3-hour sprint. Development began with a
