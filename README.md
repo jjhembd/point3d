@@ -61,15 +61,15 @@ Feedback and pull requests are welcome! If you want to try modifying the code,
 fork the [repository on GitHub](https://github.com/jjhembd/point3d).
 
 To make sure we don't break anything as we change the code, point3d has a
-test suite (implemented in [jasmine][], which you can run as follows:
+test suite (implemented in [jasmine][]), which you can run as follows:
 ```bash
 npm run test
 ```
 
 Please be sure to update the comments in the code. Comments should follow the
 [JSDoc syntax](https://jsdoc.app/howto-es2015-classes.html). When you are done,
-be sure to rebuild the docs before committing your code. This can be done via
-another of the NPM scripts, as follows:
+rebuild the docs before committing your code. This can be done via one of
+the NPM scripts, as follows:
 ```bash
 npm run build-docs
 ```

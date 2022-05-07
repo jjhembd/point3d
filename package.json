@@ -8,7 +8,7 @@
     "index.js"
   ],
   "scripts": {
-    "build-docs": "jsdoc index.js -d docs --readme README.md",
+    "build-docs": "jsdoc -c docs/conf.json",
     "lint": "eslint index.js",
     "test": "jasmine",
     "postversion": "git push && git push --tags"
